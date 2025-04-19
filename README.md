@@ -1,16 +1,42 @@
-# ecommerce_app
+# Flutter E-Commerce App
 
-A new Flutter project.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+A modern e-commerce application built with Flutter featuring:
+
+- Product listings with images
+- Dark/Light theme toggle
+- Shopping cart functionality
+- Clean Material 3 design
+
+## Features
+
+✔️ Provider state management  
+✔️ Responsive UI for all devices  
+✔️ SharedPreferences for theme persistence  
+✔️ Google Fonts integration
+
+## Screenshots
+(Add screenshots after uploading them to `/screenshots` folder)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Clone the repository
+```bash
+git clone https://github.com/HazemEl-masry/ecommerce_app.git
+```
 
-A few resources to get you started if this is your first Flutter project:
+2. Install dependencies
+```bash
+flutter pub get
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. Run the app
+```bash
+flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Dependencies
+- flutter_riverpod: ^2.0.0
+- google_fonts: ^4.0.0
+- shared_preferences: ^2.0.0
